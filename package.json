@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "node create-dist-folder.js",
     "build": "tailwindcss -i ./src/style.css -o ./src/dist/output.css"
   },
   "keywords": [],
